@@ -1,0 +1,23 @@
+{
+  "author": "Vikash",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.8.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "init": "^0.1.2",
+    "prettier": "^3.2.5"
+  },
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions":true,
+    "stepDefinitions": "D:/Cypress/cypress/e2e/loginSteps.js",
+    "step_definitions": "D:/Cypress/cypress/e2e/loginSteps.js"
+  }
+}
